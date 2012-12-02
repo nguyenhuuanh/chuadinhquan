@@ -6,7 +6,7 @@ function tangsize(){
     if(fs < sm){
         fs++;
         cs = fs;
-        $('.post-body').css("font-size",fs+'px');
+        jQuery('.post-body').css("font-size",fs+'px');
     }
 }
 function giamsize(){
@@ -14,10 +14,10 @@ function giamsize(){
     if(fs > smi){
         fs--;
         cs = fs;
-        $('.post-body').css("font-size",fs+'px');
+        jQuery('.post-body').css("font-size",fs+'px');
     }
 }
 function reset_size(){
     cs=13;
-    $('.post-body').css("font-size",cs);
+    jQuery('.post-body').css("font-size",cs);
 }
